@@ -1,0 +1,7 @@
+applications:
+- name: personelSite
+  memory: 64M
+  instance: 1
+  host: wise-credit-advice
+  command: python -m SimpleHTTPServer 8080
+   
